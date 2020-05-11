@@ -46,7 +46,15 @@
                 android:textSize="18dp"
                 android:text="$ 0"></TextView>
 
-             />
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="saveChanges"
+                android:text="Guardar cambios" />
+
+
+            />
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView

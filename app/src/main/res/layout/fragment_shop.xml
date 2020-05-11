@@ -3,8 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
-    tools:context=".ShopFragment">
+    android:background="@color/colorPrimary">
+    <!--
+    tools:context=".ShopFragment"-->
+
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -38,13 +40,13 @@
                 android:textSize="18dp"
                 android:text="$ 0"></TextView>
         </LinearLayout>
-
+<!--y
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/products_recycler_view_fragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginVertical="80dp"/>
-
+-->
 
     </LinearLayout>
 

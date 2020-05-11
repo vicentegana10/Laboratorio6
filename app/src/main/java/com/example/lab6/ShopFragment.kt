@@ -1,5 +1,5 @@
 package com.example.lab6
-
+/*
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -63,3 +63,4 @@ class ShopFragment : Fragment() {
             }
     }
 }
+*/

@@ -1,5 +1,5 @@
 package com.example.lab6
-
+/*
 import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -43,7 +43,7 @@ class ProductFragment : Fragment() {
                     products.add(Product(name = objects[0], price = objects[1],url = objects[2]))
 
                 }
-                adapter = ProductAdapterFragment(products2 as ArrayList<ItemCarro>)
+                adapter = ProductAdapterFragment(products2 as ArrayList<ItemCarro>,itemClickListener2 = CarroActivity())
             }
         }
         return view
@@ -74,3 +74,4 @@ class ProductFragment : Fragment() {
         }
     }
 }
+*/
